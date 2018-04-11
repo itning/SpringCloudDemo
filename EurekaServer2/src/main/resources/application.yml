@@ -1,0 +1,15 @@
+server:
+  port: 8762
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://local1:8761/eureka
+  instance:
+    hostname: local2
+  server:
+    enable-self-preservation: false
+spring:
+  application:
+    name: es

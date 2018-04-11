@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ec
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://local1:8761/eureka,http://local2:8762/eureka
