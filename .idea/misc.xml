@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FUSUsageTrigger">
+    <session id="424073506">
+      <usages-collector id="statistics.spring.boot.run.usages">
+        <counts>
+          <entry key="LiveBeansNavigationHandler.fromCode" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -10,6 +19,7 @@
         <option value="$PROJECT_DIR$/EurekaServer2/pom.xml" />
         <option value="$PROJECT_DIR$/EurekaProvider2/pom.xml" />
         <option value="$PROJECT_DIR$/EurekaConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaConsumerForFeign/pom.xml" />
       </list>
     </option>
   </component>

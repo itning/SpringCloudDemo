@@ -8,14 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaconsumer" />
         <module name="EurekaConsumer" />
+        <module name="EurekaConsumerForFeign" />
         <module name="eurekaprovider1" />
         <module name="EurekaProvider1" />
         <module name="eurekaprovider2" />
         <module name="EurekaProvider2" />
         <module name="EurekaServer1" />
         <module name="eurekaserver1" />
-        <module name="eurekaserver2" />
         <module name="EurekaServer2" />
+        <module name="eurekaserver2" />
         <module name="spring-cloud-demo" />
         <module name="SpringCloudDemo" />
       </profile>
