@@ -12,7 +12,7 @@ import java.util.UUID;
 public class HelloController {
 
     @GetMapping("/hello")
-    public String hello() {
-        return "pro2->" + UUID.randomUUID().toString();
+    public String hello(String msg) {
+        return "pro1->" + msg + "--" + UUID.randomUUID().toString();
     }
 }

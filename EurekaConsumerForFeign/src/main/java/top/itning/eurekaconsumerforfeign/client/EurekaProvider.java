@@ -1,15 +1,16 @@
 package top.itning.eurekaconsumerforfeign.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @author wangn
  */
 @FeignClient(name = "ep")
-@Service
+@Component
 public interface EurekaProvider {
     @GetMapping("/hello")
-    String sayHello();
+    String sayHello(@RequestParam("msg") String msg);
 }
