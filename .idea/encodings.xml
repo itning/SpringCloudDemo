@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/CloudConfig" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CloudConfig/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaConsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurekaConsumerForConfig" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaConsumerForFeign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaProvider1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaProvider2" charset="UTF-8" />
