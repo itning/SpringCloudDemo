@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/itning/spring-cloud-config
+          username: 1837634447@qq.com
+          password: kingston
+          basedir: G:\ProjectData\IdeaProjects\SpringCloudDemo\config_basedir #下载的文件存放地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://local1:8761/eureka,http://local2:8762/eureka
+server:
+  port: 8088
