@@ -8,7 +8,7 @@ spring:
           uri: https://gitee.com/itning/spring-cloud-config
           username: 1837634447@qq.com
           password: kingston
-          basedir: G:\ProjectData\IdeaProjects\SpringCloudDemo\config_basedir #下载的文件存放地址
+          basedir: G:\ProjectData\IdeaProjects\SpringCloudDemo\config_basedir #涓嬭浇鐨勬枃浠跺瓨鏀惧湴鍧�
 eureka:
   client:
     service-url:
