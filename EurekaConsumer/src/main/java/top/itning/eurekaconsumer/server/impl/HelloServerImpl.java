@@ -20,12 +20,12 @@ public class HelloServerImpl implements HelloServer {
 
     @Override
     @HystrixCommand(fallbackMethod = "helloFallBack")
-    public String hello() {
-        return restTemplate.getForObject("http://ep/hello", String.class);
+    public String hello(String msg) {
+        return restTemplate.getForObject("http://ep/hello?msg=" + msg, String.class);
     }
 
     @Override
-    public String helloFallBack() {
+    public String helloFallBack(String msg) {
         return "error";
     }
 }

@@ -8,6 +8,10 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringCloudApplication
 public class EurekaconsumerApplication {
+    /**
+     * LoadBalanced 注解用于使用应用名进行查找,并负载均衡
+     * @return RestTemplate
+     */
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate() {

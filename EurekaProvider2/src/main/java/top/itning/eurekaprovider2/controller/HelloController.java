@@ -13,6 +13,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(String msg) {
-        return "pro1->" + msg + "--" + UUID.randomUUID().toString();
+        return "pro2->" + msg + "--" + UUID.randomUUID().toString();
     }
 }

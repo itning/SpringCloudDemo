@@ -21,7 +21,7 @@ public class HelloController {
     }
 
     @GetMapping("/hello")
-    public String hello() {
-        return helloServer.hello();
+    public String hello(String msg) {
+        return helloServer.hello(msg);
     }
 }
