@@ -22,6 +22,7 @@
         <module name="eurekaserver2" />
         <module name="spring-cloud-demo" />
         <module name="SpringCloudDemo" />
+        <module name="Stream-Rabbitmq" />
       </profile>
     </annotationProcessing>
   </component>

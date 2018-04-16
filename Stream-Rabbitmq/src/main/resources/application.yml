@@ -1,0 +1,27 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  application:
+    name: stream-amp
+  cloud:
+    stream:
+      bindings:
+        myinput:
+          destination: mqTestDefault
+        myoutput:
+          destination: mqTestDefault
+          group: ooo # 消息分组 同一组只有一个接收到消息
+          content-type: application/json
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://local1:8761/eureka,http://local2:8762/eureka
+  instance:
+    prefer-ip-address: true
+server:
+  port: 8086
