@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/EurekaConsumerForFeign/pom.xml" />
         <option value="$PROJECT_DIR$/CloudConfig/pom.xml" />
         <option value="$PROJECT_DIR$/EurekaConsumerForConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/AmqTest/pom.xml" />
       </list>
     </option>
   </component>

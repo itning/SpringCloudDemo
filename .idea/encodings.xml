@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AmqTest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CloudConfig" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CloudConfig/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaConsumer" charset="UTF-8" />

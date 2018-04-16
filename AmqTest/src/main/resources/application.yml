@@ -1,0 +1,18 @@
+server:
+  port: 8085
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://local1:8761/eureka,http://local2:8762/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: amptest
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
