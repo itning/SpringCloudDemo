@@ -19,4 +19,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: "*" #将刷新配置URL暴露出去
