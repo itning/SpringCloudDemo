@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: ec
+feign:
+  hystrix:
+    enabled: true #启动熔断器
 eureka:
   client:
     healthcheck:
